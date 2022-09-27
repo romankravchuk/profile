@@ -12,10 +12,12 @@ export default {
 .avatar-img img {
     margin: auto;
     width: 200px;
-    height: 200px;
     border-radius: 50%;
     object-fit: cover;
     display: block;
     box-shadow: 0 10px 60px -10px rgba(13, 28, 39, .5);
+    @media screen and (max-width: 650px) {
+        width: 100px;
+    }
 }
 </style>

@@ -16,7 +16,7 @@ export default {
 .profile-card {
   box-shadow: 0 10px 200px -60px black;
   border-radius: 50px;
-  width: 700px;
+  width: 750px;
   position: relative;
   backdrop-filter: blur(15px);
   border: 2px solid #ffffff40;
@@ -26,6 +26,10 @@ export default {
   gap: 2rem;
 
   @media screen and (max-width: 768px) {
+    width: 550px;
+    padding: 1rem;
+  }
+  @media screen and (max-width: 650px) {
     width: auto;
   }
 }    

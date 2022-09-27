@@ -10,6 +10,7 @@ export default {
 </script>
 <style lang="scss">
 .contacts-item a {
+    display: inline-flex;
     padding: 0.3rem;
     transition: 0.5s ease 0s;
 }  

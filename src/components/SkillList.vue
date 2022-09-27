@@ -57,10 +57,15 @@ export default {
 </script>
 <style lang="scss">
 .skills-list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  
+  @media screen and (max-width: 650px) {
+    gap: 0.5rem;
+  }
 }
 .github {
   color: #161b22;
