@@ -1,6 +1,6 @@
 <template>
     <div class="profile-actions">
-      <a href="https://github.com/romankravchuk" target="_blank">Source</a>
+      <a href="https://github.com/romankravchuk/profile" target="_blank">Source</a>
     </div>
 </template>
 <script>
